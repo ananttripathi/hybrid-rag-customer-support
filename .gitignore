@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# heavy/regeneratable artifacts (per assignment note: model artifacts not required)
+chroma_db/
+intent_lora/
+intent_lora_best/
+tokenized_train/
+tokenized_valid/
+tokenized_test/
+Dataset_extracted/
+*.safetensors
+
+.DS_Store

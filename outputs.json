@@ -1,0 +1,9 @@
+{
+  "test_query": "my package is still not here and its been forever, this is ridiculous, where even is it??",
+  "ground_truth": "Domestic orders deliver within 3-7 business days. If a shipment exceeds this window, escalate per the Shipping Delays SOP.",
+  "baseline_output": "I'm sorry to hear that your package has not arrived yet. It's understandable if you're feeling frustrated. Here are some steps you can take:\n\n1. Check the tracking information: Make sure you have access to the tracking number for your package. You should be able to find this on the website or app where you placed your order.\n\n2. Contact the shipping company: If you haven't already done so, reach out to the shipping company responsible for delivering your package. They may be able to provide more information about why your package hasn't arrived yet.\n\n3. Check your address: Double-check",
+  "naive_rag_output": "I'm sorry to hear that your package hasn't arrived yet. I understand how frustrating this must be. To help us better assist you, could you please provide me with the following information:\n1. The order number (if available).\n2. Your contact details (name, email, phone number) so we can reach out directly if needed.\n3. Any other relevant details about the item being shipped (e.g., size, weight).\n\nOnce I have this information, I'll work with our team to ensure your package reaches you as soon as possible. Thank you for bringing this issue to our attention",
+  "naive_rag_retrieved_doc": "shipping_delays.md",
+  "hybrid_rag_router_output": "{\"intent\": \"delivery_status\", \"category\": \"DELIVERY\"}",
+  "hybrid_rag_output": "I'm sorry to hear that your package hasn't arrived yet. I recommend checking with your local post office or carrier directly to inquire about the status of your shipment. They should be able to provide more specific information than what we can share online. Please let me know if there's anything else I can assist you with."
+}

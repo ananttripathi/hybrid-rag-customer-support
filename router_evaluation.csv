@@ -1,0 +1,150 @@
+instruction,true_intent,true_category,router_raw,router_parsed_ok,pred_intent,pred_category,is_adversarial,exact_match,fuzzy_match
+where can i unsubscribe from ur fucking  newsletter,newsletter_subscription,SUBSCRIPTION,"{""intent"": ""unsubscribe_from_newsletter"", ""category"": ""NEWSLETTER""}",True,unsubscribe_from_newsletter,NEWSLETTER,False,False,True
+assistance to inform of asign-up problem,registration_problems,ACCOUNT,"{""intent"": ""delivery_issue"", ""category"": ""DELIVERY""}",True,delivery_issue,DELIVERY,False,False,False
+want assistance to lodge a complaint against your business,complaint,FEEDBACK,"{""intent"": ""complaint"", ""category"": ""FEEDBACK""}",True,complaint,FEEDBACK,False,True,True
+wanna see at what time i can reach customer assistance,contact_customer_service,CONTACT,"{""intent"": ""contact_customer_service"", ""category"": ""CONTACT""}",True,contact_customer_service,CONTACT,False,True,True
+can I order from {{Delivery Country}}?,delivery_options,DELIVERY,"{""intent"": ""delivery_country"", ""category"": ""DELIVERY""}",True,delivery_country,DELIVERY,False,False,True
+i do not know what to do toreset the pwd of my user,recover_password,ACCOUNT,"{""intent"": ""change_password"", ""category"": ""PASSWORD""}",True,change_password,PASSWORD,False,False,True
+i need assistance looking for the bills from {{Person Name}},check_invoice,INVOICE,"{""intent"": ""check_invoice"", ""category"": ""INVOICE""}",True,check_invoice,INVOICE,False,True,True
+assistance to see ru accepted payment options,check_payment_methods,PAYMENT,"{""intent"": ""check_payment_methods"", ""category"": ""PAYMENT""}",True,check_payment_methods,PAYMENT,False,True,True
+how to download my bills from {{Person Name}}?,get_invoice,INVOICE,"{""intent"": ""download_invoice"", ""category"": ""INVOICE""}",True,download_invoice,INVOICE,False,False,True
+i missed a fucking product in purchase {{Order Number}},change_order,ORDER,"{""intent"": ""delivery_issue"", ""category"": ""DELIVERY""}",True,delivery_issue,DELIVERY,False,False,False
+want help to file a consumer claim,complaint,FEEDBACK,"{""intent"": ""complaint"", ""category"": ""FEEDBACK""}",True,complaint,FEEDBACK,False,True,True
+need to check what hours i can reach customer service,contact_customer_service,CONTACT,"{""intent"": ""contact_customer_service"", ""category"": ""CONTACT""}",True,contact_customer_service,CONTACT,False,True,True
+can i check the withdrawal penalty,check_cancellation_fee,CANCEL,"{""intent"": ""check_cancellation_fee"", ""category"": ""CANCEL""}",True,check_cancellation_fee,CANCEL,False,True,True
+where can I submit my feedback for a product?,review,FEEDBACK,"{""intent"": ""review"", ""category"": ""FEEDBACK""}",True,review,FEEDBACK,False,True,True
+there are errors trying to modify my shipping address,change_shipping_address,SHIPPING,"{""intent"": ""change_shipping_address"", ""category"": ""SHIPPING""}",True,change_shipping_address,SHIPPING,False,True,True
+I need assistance to chat with an operator,contact_human_agent,CONTACT,"{""intent"": ""contact_human_agent"", ""category"": ""CONTACT""}",True,contact_human_agent,CONTACT,False,True,True
+I try to see th accepted payment options,check_payment_methods,PAYMENT,"{""intent"": ""check_payment_methods"", ""category"": ""PAYMENT""}",True,check_payment_methods,PAYMENT,False,True,True
+I don't know what I need to do to contact a live agent,contact_human_agent,CONTACT,"{""intent"": ""contact_human_agent"", ""category"": ""CONTACT""}",True,contact_human_agent,CONTACT,False,True,True
+i  have lost my account access key where can i recover it,recover_password,ACCOUNT,"{""intent"": ""recover_account"", ""category"": ""ACCOUNT""}",True,recover_account,ACCOUNT,False,False,True
+I want help to chat with a live agent,contact_human_agent,CONTACT,"{""intent"": ""contact_human_agent"", ""category"": ""CONTACT""}",True,contact_human_agent,CONTACT,False,True,True
+I need to see when will my product arrive,delivery_period,DELIVERY,"{""intent"": ""delivery_period"", ""category"": ""DELIVERY""}",True,delivery_period,DELIVERY,False,True,True
+i have paid {{Currency Symbol}}{{Refund Amount}} for an order I'm trying to obtain a refund,get_refund,REFUND,"{""intent"": ""get_refund"", ""category"": ""REFUND""}",True,get_refund,REFUND,False,True,True
+list the allowed payment modalities,check_payment_methods,PAYMENT,"{""intent"": ""check_payment_methods"", ""category"": ""PAYMENT""}",True,check_payment_methods,PAYMENT,False,True,True
+are there early exit fees?,check_cancellation_fee,CANCEL,"{""intent"": ""check_cancellation_fee"", ""category"": ""CANCEL""}",True,check_cancellation_fee,CANCEL,False,True,True
+i want help to file a consumer claim against ur organization,complaint,FEEDBACK,"{""intent"": ""complaint"", ""category"": ""FEEDBACK""}",True,complaint,FEEDBACK,False,True,True
+want help sending some feedback for your prfoducts,review,FEEDBACK,"{""intent"": ""review_product"", ""category"": ""FEEDBACK""}",True,review_product,FEEDBACK,False,False,True
+i have to check in what cases can i ask for refunds,check_refund_policy,REFUND,"{""intent"": ""check_refund_policy"", ""category"": ""REFUND""}",True,check_refund_policy,REFUND,False,True,True
+i do not know what to do to shop several of ur item,place_order,ORDER,"{""intent"": ""place_order"", ""category"": ""ORDER""}",True,place_order,ORDER,False,True,True
+would it be possible to enter the new delivery address?,set_up_shipping_address,SHIPPING,"{""intent"": ""change_shipping_address"", ""category"": ""SHIPPING""}",True,change_shipping_address,SHIPPING,False,False,True
+assistance to see when my order is going to arrive,delivery_period,DELIVERY,"{""intent"": ""delivery_period"", ""category"": ""DELIVERY""}",True,delivery_period,DELIVERY,False,True,True
+"I have to correct purchase {{Order Number}}, I need assistance",change_order,ORDER,"{""intent"": ""edit_order"", ""category"": ""ORDER""}",True,edit_order,ORDER,False,False,True
+I need help with adding an article to order {{Order Number}},change_order,ORDER,"{""intent"": ""add_to_cart"", ""category"": ""ORDER""}",True,add_to_cart,ORDER,False,False,False
+assistance lodging a customer reclamation against ur copany,complaint,FEEDBACK,"{""intent"": ""complaint"", ""category"": ""FEEDBACK""}",True,complaint,FEEDBACK,False,True,True
+need assistance to find my fucking bill from {{Person Name}},check_invoice,INVOICE,"{""intent"": ""check_invoice"", ""category"": ""INVOICE""}",True,check_invoice,INVOICE,False,True,True
+list your accepted payment options,check_payment_methods,PAYMENT,"{""intent"": ""check_payment_methods"", ""category"": ""PAYMENT""}",True,check_payment_methods,PAYMENT,False,True,True
+editing data on pro account,edit_account,ACCOUNT,"{""intent"": ""edit_account"", ""category"": ""ACCOUNT""}",True,edit_account,ACCOUNT,False,True,True
+how do I update the shipping address?,change_shipping_address,SHIPPING,"{""intent"": ""change_shipping_address"", ""category"": ""SHIPPING""}",True,change_shipping_address,SHIPPING,False,True,True
+need assistance changing the details on my profile,edit_account,ACCOUNT,"{""intent"": ""edit_account"", ""category"": ""ACCOUNT""}",True,edit_account,ACCOUNT,False,True,True
+upddate order {{Order Number}},change_order,ORDER,"{""intent"": ""check_order_status"", ""category"": ""ORDER""}",True,check_order_status,ORDER,False,False,True
+assistance shopping some of your article,place_order,ORDER,"{""intent"": ""place_order"", ""category"": ""ORDER""}",True,place_order,ORDER,False,True,True
+could you tell me more about creating a platinum account?,create_account,ACCOUNT,"{""intent"": ""create_account"", ""category"": ""ACCOUNT""}",True,create_account,ACCOUNT,False,True,True
+what do i need to do to create a {{Account Category}} account,create_account,ACCOUNT,"{""intent"": ""create_account"", ""category"": ""ACCOUNT""}",True,create_account,ACCOUNT,False,True,True
+what do i need to do to speak with an assistant,contact_human_agent,CONTACT,"{""intent"": ""contact_human_agent"", ""category"": ""CONTACT""}",True,contact_human_agent,CONTACT,False,True,True
+i cannot see if there is anything new on my refund,track_refund,REFUND,"{""intent"": ""check_refund_status"", ""category"": ""REFUND""}",True,check_refund_status,REFUND,False,False,True
+i need help to add several product to order {{Order Number}},change_order,ORDER,"{""intent"": ""add_items_to_cart"", ""category"": ""ADD_TO_CART""}",True,add_items_to_cart,ADD_TO_CART,False,False,False
+"I would like to shop some of your product, how to do it?",place_order,ORDER,"{""intent"": ""place_order"", ""category"": ""ORDER""}",True,place_order,ORDER,False,True,True
+how to check the early termination fee ?,check_cancellation_fee,CANCEL,"{""intent"": ""check_cancellation_fee"", ""category"": ""CANCEL""}",True,check_cancellation_fee,CANCEL,False,True,True
+I want to change to the {{Account Type}} account,switch_account,ACCOUNT,"{""intent"": ""switch_account"", ""category"": ""ACCOUNT""}",True,switch_account,ACCOUNT,False,True,True
+I call to check the shipment options,delivery_options,DELIVERY,"{""intent"": ""delivery_options"", ""category"": ""DELIVERY""}",True,delivery_options,DELIVERY,False,True,True
+I need assistance to see what delivery methods are there,delivery_options,DELIVERY,"{""intent"": ""delivery_options"", ""category"": ""DELIVERY""}",True,delivery_options,DELIVERY,False,True,True
+i need assistance to reset the pin code of my account,recover_password,ACCOUNT,"{""intent"": ""change_password"", ""category"": ""ACCOUNT""}",True,change_password,ACCOUNT,False,False,True
+I want help cancelling my subscription to your newsletter,newsletter_subscription,SUBSCRIPTION,"{""intent"": ""delete_subscription"", ""category"": ""SUBSCRIPTION""}",True,delete_subscription,SUBSCRIPTION,False,False,True
+can ya  help me to speak with customer assistance,contact_customer_service,CONTACT,"{""intent"": ""contact_human_agent"", ""category"": ""CONTACT""}",True,contact_human_agent,CONTACT,False,False,True
+I want to see in which cases can I request to be refunded,check_refund_policy,REFUND,"{""intent"": ""check_refund_policy"", ""category"": ""REFUND""}",True,check_refund_policy,REFUND,False,True,True
+remove premium account,delete_account,ACCOUNT,"{""intent"": ""delete_account"", ""category"": ""ACCOUNT""}",True,delete_account,ACCOUNT,False,True,True
+I have to update my shipping address,change_shipping_address,SHIPPING,"{""intent"": ""change_shipping_address"", ""category"": ""SHIPPING""}",True,change_shipping_address,SHIPPING,False,True,True
+where can i inform of problems with online paymeny,payment_issue,PAYMENT,"{""intent"": ""review_payment_issue"", ""category"": ""PAYMENT""}",True,review_payment_issue,PAYMENT,False,False,True
+help to check what hours I can call customer service,contact_customer_service,CONTACT,"{""intent"": ""contact_customer_service"", ""category"": ""CONTACT""}",True,contact_customer_service,CONTACT,False,True,True
+have a problem with the removal of my {{Account Type}} account,delete_account,ACCOUNT,"{""intent"": ""delete_account"", ""category"": ""ACCOUNT""}",True,delete_account,ACCOUNT,False,True,True
+"I have lost bill #12588, can you mail it to me?",get_invoice,INVOICE,"{""intent"": ""reissue_invoice"", ""category"": ""INVOICE""}",True,reissue_invoice,INVOICE,False,False,True
+help me file a consumer complaint against ur company,complaint,FEEDBACK,"{""intent"": ""complaint"", ""category"": ""FEEDBACK""}",True,complaint,FEEDBACK,False,True,True
+modifying info on platinum account,edit_account,ACCOUNT,"{""intent"": ""edit_account"", ""category"": ""ACCOUNT""}",True,edit_account,ACCOUNT,False,True,True
+modify info on {{Account Type}} account,edit_account,ACCOUNT,"{""intent"": ""edit_account"", ""category"": ""ACCOUNT""}",True,edit_account,ACCOUNT,False,True,True
+I want assistance canceling purchyase {{Order Number}},cancel_order,ORDER,"{""intent"": ""cancel_order"", ""category"": ""ORDER""}",True,cancel_order,ORDER,False,True,True
+can you help me to check how soon can I expect my item?,delivery_period,DELIVERY,"{""intent"": ""delivery_period"", ""category"": ""DELIVERY""}",True,delivery_period,DELIVERY,False,True,True
+I have got to contact customre support,contact_customer_service,CONTACT,"{""intent"": ""contact_customer_service"", ""category"": ""CONTACT""}",True,contact_customer_service,CONTACT,False,True,True
+i cannot track my restitution,track_refund,REFUND,"{""intent"": ""track_refund"", ""category"": ""REFUND""}",True,track_refund,REFUND,False,True,True
+I am waiting for a reimburswment of {{Currency Symbol}}{{Refund Amount}},track_refund,REFUND,"{""intent"": ""get_refund"", ""category"": ""REFUND""}",True,get_refund,REFUND,False,False,True
+what do I need to do to check the goddamn shipping options?,delivery_options,DELIVERY,"{""intent"": ""check_shipping_options"", ""category"": ""SHIPPING""}",True,check_shipping_options,SHIPPING,False,False,True
+i need assistance notifying of a payment probelm,payment_issue,PAYMENT,"{""intent"": ""payment_issue"", ""category"": ""PAYMENT""}",True,payment_issue,PAYMENT,False,True,True
+I want to see in which cases can I request my money back,check_refund_policy,REFUND,"{""intent"": ""check_refund_policy"", ""category"": ""REFUND""}",True,check_refund_policy,REFUND,False,True,True
+can I talk with an assistant?,contact_human_agent,CONTACT,"{""intent"": ""contact_human_agent"", ""category"": ""CONTACT""}",True,contact_human_agent,CONTACT,False,True,True
+i want help modifying the address,change_shipping_address,SHIPPING,"{""intent"": ""change_shipping_address"", ""category"": ""SHIPPING""}",True,change_shipping_address,SHIPPING,False,True,True
+"I want to see how soon can I expect the order, how to do it?",delivery_period,DELIVERY,"{""intent"": ""check_delivery_period"", ""category"": ""DELIVERY""}",True,check_delivery_period,DELIVERY,False,False,True
+wanna check uf refund policy,check_refund_policy,REFUND,"{""intent"": ""check_policy"", ""category"": ""FEEDBACK""}",True,check_policy,FEEDBACK,False,False,True
+I can't pay for purchase {{Order Number}},cancel_order,ORDER,"{""intent"": ""payment_issue"", ""category"": ""PAYMENT""}",True,payment_issue,PAYMENT,False,False,False
+assistance looking for my invoices from {{Person Name}},check_invoice,INVOICE,"{""intent"": ""invoice"", ""category"": ""INVOICE""}",True,invoice,INVOICE,False,False,True
+how do I submit another delivery address?,set_up_shipping_address,SHIPPING,"{""intent"": ""change_shipping_address"", ""category"": ""SHIPPING""}",True,change_shipping_address,SHIPPING,False,False,True
+question about cancelling order {{Order Number}},cancel_order,ORDER,"{""intent"": ""cancel_order"", ""category"": ""ORDER""}",True,cancel_order,ORDER,False,True,True
+I don't know what I need to do to get the bill #12588,get_invoice,INVOICE,"{""intent"": ""check_invoice_number"", ""category"": ""INVOICE""}",True,check_invoice_number,INVOICE,False,False,True
+wanna use the {{Account Type}} account i need help,switch_account,ACCOUNT,"{""intent"": ""switch_account"", ""category"": ""ACCOUNT""}",True,switch_account,ACCOUNT,False,True,True
+need assistance to use the platinum profile,switch_account,ACCOUNT,"{""intent"": ""switch_account"", ""category"": ""ACCOUNT""}",True,switch_account,ACCOUNT,False,True,True
+I have got to check if there are any news on the restitution,track_refund,REFUND,"{""intent"": ""check_newsletter"", ""category"": ""NEWSLETTER""}",True,check_newsletter,NEWSLETTER,False,False,False
+i want assistance downloading the bills from {{Person Name}},get_invoice,INVOICE,"{""intent"": ""download_invoice"", ""category"": ""INVOICE""}",True,download_invoice,INVOICE,False,False,True
+I can't talk with  a human agent,contact_human_agent,CONTACT,"{""intent"": ""contact_human_agent"", ""category"": ""CONTACT""}",True,contact_human_agent,CONTACT,False,True,True
+issue submitting a secondary shipping address,set_up_shipping_address,SHIPPING,"{""intent"": ""set_up_shipping_address"", ""category"": ""SHIPPING""}",True,set_up_shipping_address,SHIPPING,False,True,True
+i have got to cancel the subscription to ur newsletter,newsletter_subscription,SUBSCRIPTION,"{""intent"": ""cancel_newsletter_subscription"", ""category"": ""SUBSCRIPTION""}",True,cancel_newsletter_subscription,SUBSCRIPTION,False,False,True
+there is an error modifying my delivery address,change_shipping_address,SHIPPING,"{""intent"": ""change_shipping_address"", ""category"": ""SHIPPING""}",True,change_shipping_address,SHIPPING,False,True,True
+tracking order {{Order Number}},track_order,ORDER,"{""intent"": ""track_order"", ""category"": ""SHIPPING""}",True,track_order,SHIPPING,False,True,True
+need to check ur refund policy can i get some help,check_refund_policy,REFUND,"{""intent"": ""check_refund_policy"", ""category"": ""REFUND""}",True,check_refund_policy,REFUND,False,True,True
+how to file a consumer claim against your company?,complaint,FEEDBACK,"{""intent"": ""complaint"", ""category"": ""FEEDBACK""}",True,complaint,FEEDBACK,False,True,True
+"I would like to downloasd bill #00108, can you help me?",get_invoice,INVOICE,"{""intent"": ""download_invoice"", ""category"": ""INVOICE""}",True,download_invoice,INVOICE,False,False,True
+I don't know what to do to switch to the {{Account Category}} account,switch_account,ACCOUNT,"{""intent"": ""switch_account"", ""category"": ""ACCOUNT""}",True,switch_account,ACCOUNT,False,True,True
+assistance to request rebates,get_refund,REFUND,"{""intent"": ""get_refund"", ""category"": ""REFUND""}",True,get_refund,REFUND,False,True,True
+help to check the ETA of order {{Order Number}},track_order,ORDER,"{""intent"": ""check_delivery_time"", ""category"": ""DELIVERY""}",True,check_delivery_time,DELIVERY,False,False,False
+want help to shop a few of ur article,place_order,ORDER,"{""intent"": ""place_order"", ""category"": ""ORDER""}",True,place_order,ORDER,False,True,True
+I want assistance retrieving my user profile key,recover_password,ACCOUNT,"{""intent"": ""recover_account"", ""category"": ""ACCOUNT""}",True,recover_account,ACCOUNT,False,False,True
+is it possibe to inform of errors with payment?,payment_issue,PAYMENT,"{""intent"": ""payment_issue"", ""category"": ""PAYMENT""}",True,payment_issue,PAYMENT,False,True,True
+i cannot see the eta of order {{Order Number}},track_order,ORDER,"{""intent"": ""delivery_period"", ""category"": ""DELIVERY""}",True,delivery_period,DELIVERY,False,False,False
+I don't know how to demand a restitution of money,get_refund,REFUND,"{""intent"": ""get_refund"", ""category"": ""REFUND""}",True,get_refund,REFUND,False,True,True
+I have to conract customer assistance,contact_customer_service,CONTACT,"{""intent"": ""contact_customer_service"", ""category"": ""CONTACT""}",True,contact_customer_service,CONTACT,False,True,True
+reset the access key of my account,recover_password,ACCOUNT,"{""intent"": ""change_account_password"", ""category"": ""ACCOUNT""}",True,change_account_password,ACCOUNT,False,False,True
+how to check the current status of purchase {{Order Number}}?,track_order,ORDER,"{""intent"": ""track_order"", ""category"": ""SHIPPING""}",True,track_order,SHIPPING,False,True,True
+change information on {{Account Category}} account,edit_account,ACCOUNT,"{""intent"": ""edit_account"", ""category"": ""ACCOUNT""}",True,edit_account,ACCOUNT,False,True,True
+how can i see ur allowed payment methods,check_payment_methods,PAYMENT,"{""intent"": ""check_payment_methods"", ""category"": ""PAYMENT""}",True,check_payment_methods,PAYMENT,False,True,True
+i need assistance to open a {{Account Category}} account for my dad,create_account,ACCOUNT,"{""intent"": ""create_account"", ""category"": ""ACCOUNT""}",True,create_account,ACCOUNT,False,True,True
+i do not know how to download the bill #37777,get_invoice,INVOICE,"{""intent"": ""check_invoice"", ""category"": ""INVOICE""}",True,check_invoice,INVOICE,False,False,True
+where to report issues with online payments,payment_issue,PAYMENT,"{""intent"": ""complaint"", ""category"": ""PAYMENT""}",True,complaint,PAYMENT,False,False,False
+contact live agent,contact_human_agent,CONTACT,"{""intent"": ""CONTACT_AGENT"", ""category"": ""CONTACT""}",True,CONTACT_AGENT,CONTACT,False,False,True
+"I am having an error signing up, can I get some help?",registration_problems,ACCOUNT,"{""intent"": ""registration_problems"", ""category"": ""ACCOUNT""}",True,registration_problems,ACCOUNT,False,True,True
+i try to check what paymnt payment modalities ya accept,check_payment_methods,PAYMENT,"{""intent"": ""check_payment_methods"", ""category"": ""PAYMENT""}",True,check_payment_methods,PAYMENT,False,True,True
+can you show me when my item is going to arrive?,delivery_period,DELIVERY,"{""intent"": ""delivery_period"", ""category"": ""DELIVERY""}",True,delivery_period,DELIVERY,False,True,True
+"I don't want the freemium account, I need help to close it",delete_account,ACCOUNT,"{""intent"": ""delete_account"", ""category"": ""ACCOUNT""}",True,delete_account,ACCOUNT,False,True,True
+i dont kno how to request a refund of my money,get_refund,REFUND,"{""intent"": ""get_refund"", ""category"": ""REFUND""}",True,get_refund,REFUND,False,True,True
+I awnt assistance to locate the bill #00108,check_invoice,INVOICE,"{""intent"": ""check_invoice"", ""category"": ""INVOICE""}",True,check_invoice,INVOICE,False,True,True
+can you help me to check what shipment methods I have?,delivery_options,DELIVERY,"{""intent"": ""delivery_options"", ""category"": ""DELIVERY""}",True,delivery_options,DELIVERY,False,True,True
+want help to track the reimbursement,track_refund,REFUND,"{""intent"": ""check_refund"", ""category"": ""REFUND""}",True,check_refund,REFUND,False,False,True
+I need help closing a platinum account,delete_account,ACCOUNT,"{""intent"": ""delete_account"", ""category"": ""ACCOUNT""}",True,delete_account,ACCOUNT,False,True,True
+could you help me reporting errors with online payment?,payment_issue,PAYMENT,"{""intent"": ""payment_issue"", ""category"": ""PAYMENT""}",True,payment_issue,PAYMENT,False,True,True
+how to open a {{Account Type}} account for my fiance,create_account,ACCOUNT,"{""intent"": ""create_account"", ""category"": ""ACCOUNT""}",True,create_account,ACCOUNT,False,True,True
+"I need to see the cancellation fee, can you help me?",check_cancellation_fee,CANCEL,"{""intent"": ""check_cancellation_fee"", ""category"": ""PAYMENT""}",True,check_cancellation_fee,PAYMENT,False,True,True
+I need to set up another deliverry address,set_up_shipping_address,SHIPPING,"{""intent"": ""change_shipping_address"", ""category"": ""SHIPPING""}",True,change_shipping_address,SHIPPING,False,False,True
+need assiwtance seeing the ETA of the order {{Order Number}},track_order,ORDER,"{""intent"": ""check_delivery_period"", ""category"": ""DELIVERY""}",True,check_delivery_period,DELIVERY,False,False,False
+what do I need to do to shop some of your product?,place_order,ORDER,"{""intent"": ""place_order"", ""category"": ""ORDER""}",True,place_order,ORDER,False,True,True
+"my card was declined, inform of an error with payments",payment_issue,PAYMENT,"{""intent"": ""payment_issue"", ""category"": ""PAYMENT""}",True,payment_issue,PAYMENT,False,True,True
+"I lost bill #37777, mail it to me",get_invoice,INVOICE,"{""intent"": ""reissue_invoice"", ""category"": ""INVOICE""}",True,reissue_invoice,INVOICE,False,False,True
+I do not know how to get in touch with customer assistance,contact_customer_service,CONTACT,"{""intent"": ""contact_customer_service"", ""category"": ""CONTACT""}",True,contact_customer_service,CONTACT,False,True,True
+there is a problem with my registration,registration_problems,ACCOUNT,"{""intent"": ""registration_problems"", ""category"": ""ACCOUNT""}",True,registration_problems,ACCOUNT,False,True,True
+could you help me to submit some feedback for your products?,review,FEEDBACK,"{""intent"": ""review_product"", ""category"": ""FEEDBACK""}",True,review_product,FEEDBACK,False,False,True
+can you help md unsubscribing to your company newsletter?,newsletter_subscription,SUBSCRIPTION,"{""intent"": ""unsubscribe_from_newsletter"", ""category"": ""NEWSLETTER""}",True,unsubscribe_from_newsletter,NEWSLETTER,False,False,True
+I need to check how long rimbursements take,check_refund_policy,REFUND,"{""intent"": ""check_refund_period"", ""category"": ""REFUND""}",True,check_refund_period,REFUND,False,False,True
+"I can no longer afford order {{Order Number}}, cancel it",cancel_order,ORDER,"{""intent"": ""cancel_order"", ""category"": ""ORDER""}",True,cancel_order,ORDER,False,True,True
+I do not know how to submit some feedback,review,FEEDBACK,"{""intent"": ""submit_review"", ""category"": ""FEEDBACK""}",True,submit_review,FEEDBACK,False,False,True
+I need help to check purchase {{Order Number}} current status,track_order,ORDER,"{""intent"": ""track_order"", ""category"": ""SHIPPING""}",True,track_order,SHIPPING,False,True,True
+"I have got to enter a new shipping address, help me",set_up_shipping_address,SHIPPING,"{""intent"": ""change_shipping_address"", ""category"": ""SHIPPING""}",True,change_shipping_address,SHIPPING,False,False,True
+is there an address to leave an opinion ?,review,FEEDBACK,"{""intent"": ""review"", ""category"": ""FEEDBACK""}",True,review,FEEDBACK,False,True,True
+assistance to see the invoice from {{Person Name}},check_invoice,INVOICE,"{""intent"": ""view_invoice"", ""category"": ""INVOICE""}",True,view_invoice,INVOICE,False,False,True
+opening new {{Account Type}} account for daughter,create_account,ACCOUNT,"{""intent"": ""create_account"", ""category"": ""ACCOUNT""}",True,create_account,ACCOUNT,False,True,True
+i do not know how i can report a registration problem,registration_problems,ACCOUNT,"{""intent"": ""registration_problems"", ""category"": ""ACCOUNT""}",True,registration_problems,ACCOUNT,False,True,True
+refund  {{Currency Symbol}}{{Refund Amount}},get_refund,REFUND,"{""intent"": ""get_refund"", ""category"": ""REFUND""}",True,get_refund,REFUND,False,True,True
+I do not know what I need to do to create a {{Account Type}} account,create_account,ACCOUNT,"{""intent"": ""create_account"", ""category"": ""ACCOUNT""}",True,create_account,ACCOUNT,False,True,True
+get money back,get_refund,REFUND,"{""intent"": ""get_refund"", ""category"": ""REFUND""}",True,get_refund,REFUND,False,True,True
+i want assistance seeing the early exit charges,check_cancellation_fee,CANCEL,"{""intent"": ""check_payment_method"", ""category"": ""PAYMENT""}",True,check_payment_method,PAYMENT,False,False,True
+I do not know what I have to do to delete a {{Account Category}} account,delete_account,ACCOUNT,"{""intent"": ""delete_account"", ""category"": ""ACCOUNT""}",True,delete_account,ACCOUNT,False,True,True
+i dont know what i need to do to report errors with sign-up,registration_problems,ACCOUNT,"{""intent"": ""registration_problems"", ""category"": ""ACCOUNT""}",True,registration_problems,ACCOUNT,False,True,True
+I'm waiting for an goddamn restitution of {{Refund Amount}} dollars,track_refund,REFUND,"{""intent"": ""refund"", ""category"": ""REFUND""}",True,refund,REFUND,False,False,True
+i expect an refund of {{Refund Amount}} dollars was it processed,track_refund,REFUND,"{""intent"": ""check_refund_status"", ""category"": ""REFUND""}",True,check_refund_status,REFUND,False,False,True
+"I have to acquire a bloody item, I need assistance",place_order,ORDER,"{""intent"": ""delivery_issue"", ""category"": ""DELIVERY""}",True,delivery_issue,DELIVERY,False,False,False
+can uhelp me ti leave a damn review for a product,review,FEEDBACK,"{""intent"": ""review"", ""category"": ""FEEDBACK""}",True,review,FEEDBACK,False,True,True

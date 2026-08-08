@@ -1,0 +1,8 @@
+{
+  "MODEL_ID": "Qwen/Qwen2.5-1.5B-Instruct",
+  "MAX_LENGTH": 128,
+  "SOP_DIR": "Dataset/sop_documents",
+  "n_train": 1190,
+  "n_valid": 149,
+  "n_test": 149
+}

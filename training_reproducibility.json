@@ -1,0 +1,24 @@
+{
+  "MODEL_ID": "Qwen/Qwen2.5-1.5B-Instruct",
+  "lora_config": {
+    "r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "target_modules": [
+      "q_proj",
+      "v_proj"
+    ]
+  },
+  "learning_rate": 0.0002,
+  "batch_size": 2,
+  "max_steps": 200,
+  "actual_steps": 200,
+  "val_every": 20,
+  "patience": 3,
+  "seed": 42,
+  "best_val_loss": 0.02841290179795275,
+  "best_step": 200,
+  "early_stopped": false,
+  "device": "mps",
+  "precision": "bfloat16 + gradient checkpointing (MPS training \u2014 bitsandbytes/QLoRA unavailable, see Project Proposal 1.4.3; switched from an initial fp32 attempt after fp32 caused system-wide swap thrashing on this 24GB machine)"
+}

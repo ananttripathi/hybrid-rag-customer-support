@@ -1,0 +1,1044 @@
+instruction,intent,category,text,target_json
+where can i unsubscribe from ur fucking  newsletter,newsletter_subscription,SUBSCRIPTION,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+where can i unsubscribe from ur fucking  newsletter<|im_end|>
+<|im_start|>assistant
+{""intent"": ""newsletter_subscription"", ""category"": ""SUBSCRIPTION""}<|im_end|>
+","{""intent"": ""newsletter_subscription"", ""category"": ""SUBSCRIPTION""}"
+assistance to inform of asign-up problem,registration_problems,ACCOUNT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+assistance to inform of asign-up problem<|im_end|>
+<|im_start|>assistant
+{""intent"": ""registration_problems"", ""category"": ""ACCOUNT""}<|im_end|>
+","{""intent"": ""registration_problems"", ""category"": ""ACCOUNT""}"
+want assistance to lodge a complaint against your business,complaint,FEEDBACK,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+want assistance to lodge a complaint against your business<|im_end|>
+<|im_start|>assistant
+{""intent"": ""complaint"", ""category"": ""FEEDBACK""}<|im_end|>
+","{""intent"": ""complaint"", ""category"": ""FEEDBACK""}"
+wanna see at what time i can reach customer assistance,contact_customer_service,CONTACT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+wanna see at what time i can reach customer assistance<|im_end|>
+<|im_start|>assistant
+{""intent"": ""contact_customer_service"", ""category"": ""CONTACT""}<|im_end|>
+","{""intent"": ""contact_customer_service"", ""category"": ""CONTACT""}"
+can I order from {{Delivery Country}}?,delivery_options,DELIVERY,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+can I order from {{Delivery Country}}?<|im_end|>
+<|im_start|>assistant
+{""intent"": ""delivery_options"", ""category"": ""DELIVERY""}<|im_end|>
+","{""intent"": ""delivery_options"", ""category"": ""DELIVERY""}"
+i do not know what to do toreset the pwd of my user,recover_password,ACCOUNT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+i do not know what to do toreset the pwd of my user<|im_end|>
+<|im_start|>assistant
+{""intent"": ""recover_password"", ""category"": ""ACCOUNT""}<|im_end|>
+","{""intent"": ""recover_password"", ""category"": ""ACCOUNT""}"
+i need assistance looking for the bills from {{Person Name}},check_invoice,INVOICE,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+i need assistance looking for the bills from {{Person Name}}<|im_end|>
+<|im_start|>assistant
+{""intent"": ""check_invoice"", ""category"": ""INVOICE""}<|im_end|>
+","{""intent"": ""check_invoice"", ""category"": ""INVOICE""}"
+assistance to see ru accepted payment options,check_payment_methods,PAYMENT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+assistance to see ru accepted payment options<|im_end|>
+<|im_start|>assistant
+{""intent"": ""check_payment_methods"", ""category"": ""PAYMENT""}<|im_end|>
+","{""intent"": ""check_payment_methods"", ""category"": ""PAYMENT""}"
+how to download my bills from {{Person Name}}?,get_invoice,INVOICE,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+how to download my bills from {{Person Name}}?<|im_end|>
+<|im_start|>assistant
+{""intent"": ""get_invoice"", ""category"": ""INVOICE""}<|im_end|>
+","{""intent"": ""get_invoice"", ""category"": ""INVOICE""}"
+i missed a fucking product in purchase {{Order Number}},change_order,ORDER,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+i missed a fucking product in purchase {{Order Number}}<|im_end|>
+<|im_start|>assistant
+{""intent"": ""change_order"", ""category"": ""ORDER""}<|im_end|>
+","{""intent"": ""change_order"", ""category"": ""ORDER""}"
+want help to file a consumer claim,complaint,FEEDBACK,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+want help to file a consumer claim<|im_end|>
+<|im_start|>assistant
+{""intent"": ""complaint"", ""category"": ""FEEDBACK""}<|im_end|>
+","{""intent"": ""complaint"", ""category"": ""FEEDBACK""}"
+need to check what hours i can reach customer service,contact_customer_service,CONTACT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+need to check what hours i can reach customer service<|im_end|>
+<|im_start|>assistant
+{""intent"": ""contact_customer_service"", ""category"": ""CONTACT""}<|im_end|>
+","{""intent"": ""contact_customer_service"", ""category"": ""CONTACT""}"
+can i check the withdrawal penalty,check_cancellation_fee,CANCEL,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+can i check the withdrawal penalty<|im_end|>
+<|im_start|>assistant
+{""intent"": ""check_cancellation_fee"", ""category"": ""CANCEL""}<|im_end|>
+","{""intent"": ""check_cancellation_fee"", ""category"": ""CANCEL""}"
+where can I submit my feedback for a product?,review,FEEDBACK,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+where can I submit my feedback for a product?<|im_end|>
+<|im_start|>assistant
+{""intent"": ""review"", ""category"": ""FEEDBACK""}<|im_end|>
+","{""intent"": ""review"", ""category"": ""FEEDBACK""}"
+there are errors trying to modify my shipping address,change_shipping_address,SHIPPING,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+there are errors trying to modify my shipping address<|im_end|>
+<|im_start|>assistant
+{""intent"": ""change_shipping_address"", ""category"": ""SHIPPING""}<|im_end|>
+","{""intent"": ""change_shipping_address"", ""category"": ""SHIPPING""}"
+I need assistance to chat with an operator,contact_human_agent,CONTACT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I need assistance to chat with an operator<|im_end|>
+<|im_start|>assistant
+{""intent"": ""contact_human_agent"", ""category"": ""CONTACT""}<|im_end|>
+","{""intent"": ""contact_human_agent"", ""category"": ""CONTACT""}"
+I try to see th accepted payment options,check_payment_methods,PAYMENT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I try to see th accepted payment options<|im_end|>
+<|im_start|>assistant
+{""intent"": ""check_payment_methods"", ""category"": ""PAYMENT""}<|im_end|>
+","{""intent"": ""check_payment_methods"", ""category"": ""PAYMENT""}"
+I don't know what I need to do to contact a live agent,contact_human_agent,CONTACT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I don't know what I need to do to contact a live agent<|im_end|>
+<|im_start|>assistant
+{""intent"": ""contact_human_agent"", ""category"": ""CONTACT""}<|im_end|>
+","{""intent"": ""contact_human_agent"", ""category"": ""CONTACT""}"
+i  have lost my account access key where can i recover it,recover_password,ACCOUNT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+i  have lost my account access key where can i recover it<|im_end|>
+<|im_start|>assistant
+{""intent"": ""recover_password"", ""category"": ""ACCOUNT""}<|im_end|>
+","{""intent"": ""recover_password"", ""category"": ""ACCOUNT""}"
+I want help to chat with a live agent,contact_human_agent,CONTACT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I want help to chat with a live agent<|im_end|>
+<|im_start|>assistant
+{""intent"": ""contact_human_agent"", ""category"": ""CONTACT""}<|im_end|>
+","{""intent"": ""contact_human_agent"", ""category"": ""CONTACT""}"
+I need to see when will my product arrive,delivery_period,DELIVERY,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I need to see when will my product arrive<|im_end|>
+<|im_start|>assistant
+{""intent"": ""delivery_period"", ""category"": ""DELIVERY""}<|im_end|>
+","{""intent"": ""delivery_period"", ""category"": ""DELIVERY""}"
+i have paid {{Currency Symbol}}{{Refund Amount}} for an order I'm trying to obtain a refund,get_refund,REFUND,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+i have paid {{Currency Symbol}}{{Refund Amount}} for an order I'm trying to obtain a refund<|im_end|>
+<|im_start|>assistant
+{""intent"": ""get_refund"", ""category"": ""REFUND""}<|im_end|>
+","{""intent"": ""get_refund"", ""category"": ""REFUND""}"
+list the allowed payment modalities,check_payment_methods,PAYMENT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+list the allowed payment modalities<|im_end|>
+<|im_start|>assistant
+{""intent"": ""check_payment_methods"", ""category"": ""PAYMENT""}<|im_end|>
+","{""intent"": ""check_payment_methods"", ""category"": ""PAYMENT""}"
+are there early exit fees?,check_cancellation_fee,CANCEL,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+are there early exit fees?<|im_end|>
+<|im_start|>assistant
+{""intent"": ""check_cancellation_fee"", ""category"": ""CANCEL""}<|im_end|>
+","{""intent"": ""check_cancellation_fee"", ""category"": ""CANCEL""}"
+i want help to file a consumer claim against ur organization,complaint,FEEDBACK,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+i want help to file a consumer claim against ur organization<|im_end|>
+<|im_start|>assistant
+{""intent"": ""complaint"", ""category"": ""FEEDBACK""}<|im_end|>
+","{""intent"": ""complaint"", ""category"": ""FEEDBACK""}"
+want help sending some feedback for your prfoducts,review,FEEDBACK,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+want help sending some feedback for your prfoducts<|im_end|>
+<|im_start|>assistant
+{""intent"": ""review"", ""category"": ""FEEDBACK""}<|im_end|>
+","{""intent"": ""review"", ""category"": ""FEEDBACK""}"
+i have to check in what cases can i ask for refunds,check_refund_policy,REFUND,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+i have to check in what cases can i ask for refunds<|im_end|>
+<|im_start|>assistant
+{""intent"": ""check_refund_policy"", ""category"": ""REFUND""}<|im_end|>
+","{""intent"": ""check_refund_policy"", ""category"": ""REFUND""}"
+i do not know what to do to shop several of ur item,place_order,ORDER,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+i do not know what to do to shop several of ur item<|im_end|>
+<|im_start|>assistant
+{""intent"": ""place_order"", ""category"": ""ORDER""}<|im_end|>
+","{""intent"": ""place_order"", ""category"": ""ORDER""}"
+would it be possible to enter the new delivery address?,set_up_shipping_address,SHIPPING,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+would it be possible to enter the new delivery address?<|im_end|>
+<|im_start|>assistant
+{""intent"": ""set_up_shipping_address"", ""category"": ""SHIPPING""}<|im_end|>
+","{""intent"": ""set_up_shipping_address"", ""category"": ""SHIPPING""}"
+assistance to see when my order is going to arrive,delivery_period,DELIVERY,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+assistance to see when my order is going to arrive<|im_end|>
+<|im_start|>assistant
+{""intent"": ""delivery_period"", ""category"": ""DELIVERY""}<|im_end|>
+","{""intent"": ""delivery_period"", ""category"": ""DELIVERY""}"
+"I have to correct purchase {{Order Number}}, I need assistance",change_order,ORDER,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I have to correct purchase {{Order Number}}, I need assistance<|im_end|>
+<|im_start|>assistant
+{""intent"": ""change_order"", ""category"": ""ORDER""}<|im_end|>
+","{""intent"": ""change_order"", ""category"": ""ORDER""}"
+I need help with adding an article to order {{Order Number}},change_order,ORDER,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I need help with adding an article to order {{Order Number}}<|im_end|>
+<|im_start|>assistant
+{""intent"": ""change_order"", ""category"": ""ORDER""}<|im_end|>
+","{""intent"": ""change_order"", ""category"": ""ORDER""}"
+assistance lodging a customer reclamation against ur copany,complaint,FEEDBACK,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+assistance lodging a customer reclamation against ur copany<|im_end|>
+<|im_start|>assistant
+{""intent"": ""complaint"", ""category"": ""FEEDBACK""}<|im_end|>
+","{""intent"": ""complaint"", ""category"": ""FEEDBACK""}"
+need assistance to find my fucking bill from {{Person Name}},check_invoice,INVOICE,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+need assistance to find my fucking bill from {{Person Name}}<|im_end|>
+<|im_start|>assistant
+{""intent"": ""check_invoice"", ""category"": ""INVOICE""}<|im_end|>
+","{""intent"": ""check_invoice"", ""category"": ""INVOICE""}"
+list your accepted payment options,check_payment_methods,PAYMENT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+list your accepted payment options<|im_end|>
+<|im_start|>assistant
+{""intent"": ""check_payment_methods"", ""category"": ""PAYMENT""}<|im_end|>
+","{""intent"": ""check_payment_methods"", ""category"": ""PAYMENT""}"
+editing data on pro account,edit_account,ACCOUNT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+editing data on pro account<|im_end|>
+<|im_start|>assistant
+{""intent"": ""edit_account"", ""category"": ""ACCOUNT""}<|im_end|>
+","{""intent"": ""edit_account"", ""category"": ""ACCOUNT""}"
+how do I update the shipping address?,change_shipping_address,SHIPPING,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+how do I update the shipping address?<|im_end|>
+<|im_start|>assistant
+{""intent"": ""change_shipping_address"", ""category"": ""SHIPPING""}<|im_end|>
+","{""intent"": ""change_shipping_address"", ""category"": ""SHIPPING""}"
+need assistance changing the details on my profile,edit_account,ACCOUNT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+need assistance changing the details on my profile<|im_end|>
+<|im_start|>assistant
+{""intent"": ""edit_account"", ""category"": ""ACCOUNT""}<|im_end|>
+","{""intent"": ""edit_account"", ""category"": ""ACCOUNT""}"
+upddate order {{Order Number}},change_order,ORDER,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+upddate order {{Order Number}}<|im_end|>
+<|im_start|>assistant
+{""intent"": ""change_order"", ""category"": ""ORDER""}<|im_end|>
+","{""intent"": ""change_order"", ""category"": ""ORDER""}"
+assistance shopping some of your article,place_order,ORDER,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+assistance shopping some of your article<|im_end|>
+<|im_start|>assistant
+{""intent"": ""place_order"", ""category"": ""ORDER""}<|im_end|>
+","{""intent"": ""place_order"", ""category"": ""ORDER""}"
+could you tell me more about creating a platinum account?,create_account,ACCOUNT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+could you tell me more about creating a platinum account?<|im_end|>
+<|im_start|>assistant
+{""intent"": ""create_account"", ""category"": ""ACCOUNT""}<|im_end|>
+","{""intent"": ""create_account"", ""category"": ""ACCOUNT""}"
+what do i need to do to create a {{Account Category}} account,create_account,ACCOUNT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+what do i need to do to create a {{Account Category}} account<|im_end|>
+<|im_start|>assistant
+{""intent"": ""create_account"", ""category"": ""ACCOUNT""}<|im_end|>
+","{""intent"": ""create_account"", ""category"": ""ACCOUNT""}"
+what do i need to do to speak with an assistant,contact_human_agent,CONTACT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+what do i need to do to speak with an assistant<|im_end|>
+<|im_start|>assistant
+{""intent"": ""contact_human_agent"", ""category"": ""CONTACT""}<|im_end|>
+","{""intent"": ""contact_human_agent"", ""category"": ""CONTACT""}"
+i cannot see if there is anything new on my refund,track_refund,REFUND,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+i cannot see if there is anything new on my refund<|im_end|>
+<|im_start|>assistant
+{""intent"": ""track_refund"", ""category"": ""REFUND""}<|im_end|>
+","{""intent"": ""track_refund"", ""category"": ""REFUND""}"
+i need help to add several product to order {{Order Number}},change_order,ORDER,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+i need help to add several product to order {{Order Number}}<|im_end|>
+<|im_start|>assistant
+{""intent"": ""change_order"", ""category"": ""ORDER""}<|im_end|>
+","{""intent"": ""change_order"", ""category"": ""ORDER""}"
+"I would like to shop some of your product, how to do it?",place_order,ORDER,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I would like to shop some of your product, how to do it?<|im_end|>
+<|im_start|>assistant
+{""intent"": ""place_order"", ""category"": ""ORDER""}<|im_end|>
+","{""intent"": ""place_order"", ""category"": ""ORDER""}"
+how to check the early termination fee ?,check_cancellation_fee,CANCEL,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+how to check the early termination fee ?<|im_end|>
+<|im_start|>assistant
+{""intent"": ""check_cancellation_fee"", ""category"": ""CANCEL""}<|im_end|>
+","{""intent"": ""check_cancellation_fee"", ""category"": ""CANCEL""}"
+I want to change to the {{Account Type}} account,switch_account,ACCOUNT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I want to change to the {{Account Type}} account<|im_end|>
+<|im_start|>assistant
+{""intent"": ""switch_account"", ""category"": ""ACCOUNT""}<|im_end|>
+","{""intent"": ""switch_account"", ""category"": ""ACCOUNT""}"
+I call to check the shipment options,delivery_options,DELIVERY,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I call to check the shipment options<|im_end|>
+<|im_start|>assistant
+{""intent"": ""delivery_options"", ""category"": ""DELIVERY""}<|im_end|>
+","{""intent"": ""delivery_options"", ""category"": ""DELIVERY""}"
+I need assistance to see what delivery methods are there,delivery_options,DELIVERY,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I need assistance to see what delivery methods are there<|im_end|>
+<|im_start|>assistant
+{""intent"": ""delivery_options"", ""category"": ""DELIVERY""}<|im_end|>
+","{""intent"": ""delivery_options"", ""category"": ""DELIVERY""}"
+i need assistance to reset the pin code of my account,recover_password,ACCOUNT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+i need assistance to reset the pin code of my account<|im_end|>
+<|im_start|>assistant
+{""intent"": ""recover_password"", ""category"": ""ACCOUNT""}<|im_end|>
+","{""intent"": ""recover_password"", ""category"": ""ACCOUNT""}"
+I want help cancelling my subscription to your newsletter,newsletter_subscription,SUBSCRIPTION,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I want help cancelling my subscription to your newsletter<|im_end|>
+<|im_start|>assistant
+{""intent"": ""newsletter_subscription"", ""category"": ""SUBSCRIPTION""}<|im_end|>
+","{""intent"": ""newsletter_subscription"", ""category"": ""SUBSCRIPTION""}"
+can ya  help me to speak with customer assistance,contact_customer_service,CONTACT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+can ya  help me to speak with customer assistance<|im_end|>
+<|im_start|>assistant
+{""intent"": ""contact_customer_service"", ""category"": ""CONTACT""}<|im_end|>
+","{""intent"": ""contact_customer_service"", ""category"": ""CONTACT""}"
+I want to see in which cases can I request to be refunded,check_refund_policy,REFUND,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I want to see in which cases can I request to be refunded<|im_end|>
+<|im_start|>assistant
+{""intent"": ""check_refund_policy"", ""category"": ""REFUND""}<|im_end|>
+","{""intent"": ""check_refund_policy"", ""category"": ""REFUND""}"
+remove premium account,delete_account,ACCOUNT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+remove premium account<|im_end|>
+<|im_start|>assistant
+{""intent"": ""delete_account"", ""category"": ""ACCOUNT""}<|im_end|>
+","{""intent"": ""delete_account"", ""category"": ""ACCOUNT""}"
+I have to update my shipping address,change_shipping_address,SHIPPING,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I have to update my shipping address<|im_end|>
+<|im_start|>assistant
+{""intent"": ""change_shipping_address"", ""category"": ""SHIPPING""}<|im_end|>
+","{""intent"": ""change_shipping_address"", ""category"": ""SHIPPING""}"
+where can i inform of problems with online paymeny,payment_issue,PAYMENT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+where can i inform of problems with online paymeny<|im_end|>
+<|im_start|>assistant
+{""intent"": ""payment_issue"", ""category"": ""PAYMENT""}<|im_end|>
+","{""intent"": ""payment_issue"", ""category"": ""PAYMENT""}"
+help to check what hours I can call customer service,contact_customer_service,CONTACT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+help to check what hours I can call customer service<|im_end|>
+<|im_start|>assistant
+{""intent"": ""contact_customer_service"", ""category"": ""CONTACT""}<|im_end|>
+","{""intent"": ""contact_customer_service"", ""category"": ""CONTACT""}"
+have a problem with the removal of my {{Account Type}} account,delete_account,ACCOUNT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+have a problem with the removal of my {{Account Type}} account<|im_end|>
+<|im_start|>assistant
+{""intent"": ""delete_account"", ""category"": ""ACCOUNT""}<|im_end|>
+","{""intent"": ""delete_account"", ""category"": ""ACCOUNT""}"
+"I have lost bill #12588, can you mail it to me?",get_invoice,INVOICE,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I have lost bill #12588, can you mail it to me?<|im_end|>
+<|im_start|>assistant
+{""intent"": ""get_invoice"", ""category"": ""INVOICE""}<|im_end|>
+","{""intent"": ""get_invoice"", ""category"": ""INVOICE""}"
+help me file a consumer complaint against ur company,complaint,FEEDBACK,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+help me file a consumer complaint against ur company<|im_end|>
+<|im_start|>assistant
+{""intent"": ""complaint"", ""category"": ""FEEDBACK""}<|im_end|>
+","{""intent"": ""complaint"", ""category"": ""FEEDBACK""}"
+modifying info on platinum account,edit_account,ACCOUNT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+modifying info on platinum account<|im_end|>
+<|im_start|>assistant
+{""intent"": ""edit_account"", ""category"": ""ACCOUNT""}<|im_end|>
+","{""intent"": ""edit_account"", ""category"": ""ACCOUNT""}"
+modify info on {{Account Type}} account,edit_account,ACCOUNT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+modify info on {{Account Type}} account<|im_end|>
+<|im_start|>assistant
+{""intent"": ""edit_account"", ""category"": ""ACCOUNT""}<|im_end|>
+","{""intent"": ""edit_account"", ""category"": ""ACCOUNT""}"
+I want assistance canceling purchyase {{Order Number}},cancel_order,ORDER,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I want assistance canceling purchyase {{Order Number}}<|im_end|>
+<|im_start|>assistant
+{""intent"": ""cancel_order"", ""category"": ""ORDER""}<|im_end|>
+","{""intent"": ""cancel_order"", ""category"": ""ORDER""}"
+can you help me to check how soon can I expect my item?,delivery_period,DELIVERY,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+can you help me to check how soon can I expect my item?<|im_end|>
+<|im_start|>assistant
+{""intent"": ""delivery_period"", ""category"": ""DELIVERY""}<|im_end|>
+","{""intent"": ""delivery_period"", ""category"": ""DELIVERY""}"
+I have got to contact customre support,contact_customer_service,CONTACT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I have got to contact customre support<|im_end|>
+<|im_start|>assistant
+{""intent"": ""contact_customer_service"", ""category"": ""CONTACT""}<|im_end|>
+","{""intent"": ""contact_customer_service"", ""category"": ""CONTACT""}"
+i cannot track my restitution,track_refund,REFUND,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+i cannot track my restitution<|im_end|>
+<|im_start|>assistant
+{""intent"": ""track_refund"", ""category"": ""REFUND""}<|im_end|>
+","{""intent"": ""track_refund"", ""category"": ""REFUND""}"
+I am waiting for a reimburswment of {{Currency Symbol}}{{Refund Amount}},track_refund,REFUND,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I am waiting for a reimburswment of {{Currency Symbol}}{{Refund Amount}}<|im_end|>
+<|im_start|>assistant
+{""intent"": ""track_refund"", ""category"": ""REFUND""}<|im_end|>
+","{""intent"": ""track_refund"", ""category"": ""REFUND""}"
+what do I need to do to check the goddamn shipping options?,delivery_options,DELIVERY,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+what do I need to do to check the goddamn shipping options?<|im_end|>
+<|im_start|>assistant
+{""intent"": ""delivery_options"", ""category"": ""DELIVERY""}<|im_end|>
+","{""intent"": ""delivery_options"", ""category"": ""DELIVERY""}"
+i need assistance notifying of a payment probelm,payment_issue,PAYMENT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+i need assistance notifying of a payment probelm<|im_end|>
+<|im_start|>assistant
+{""intent"": ""payment_issue"", ""category"": ""PAYMENT""}<|im_end|>
+","{""intent"": ""payment_issue"", ""category"": ""PAYMENT""}"
+I want to see in which cases can I request my money back,check_refund_policy,REFUND,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I want to see in which cases can I request my money back<|im_end|>
+<|im_start|>assistant
+{""intent"": ""check_refund_policy"", ""category"": ""REFUND""}<|im_end|>
+","{""intent"": ""check_refund_policy"", ""category"": ""REFUND""}"
+can I talk with an assistant?,contact_human_agent,CONTACT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+can I talk with an assistant?<|im_end|>
+<|im_start|>assistant
+{""intent"": ""contact_human_agent"", ""category"": ""CONTACT""}<|im_end|>
+","{""intent"": ""contact_human_agent"", ""category"": ""CONTACT""}"
+i want help modifying the address,change_shipping_address,SHIPPING,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+i want help modifying the address<|im_end|>
+<|im_start|>assistant
+{""intent"": ""change_shipping_address"", ""category"": ""SHIPPING""}<|im_end|>
+","{""intent"": ""change_shipping_address"", ""category"": ""SHIPPING""}"
+"I want to see how soon can I expect the order, how to do it?",delivery_period,DELIVERY,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I want to see how soon can I expect the order, how to do it?<|im_end|>
+<|im_start|>assistant
+{""intent"": ""delivery_period"", ""category"": ""DELIVERY""}<|im_end|>
+","{""intent"": ""delivery_period"", ""category"": ""DELIVERY""}"
+wanna check uf refund policy,check_refund_policy,REFUND,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+wanna check uf refund policy<|im_end|>
+<|im_start|>assistant
+{""intent"": ""check_refund_policy"", ""category"": ""REFUND""}<|im_end|>
+","{""intent"": ""check_refund_policy"", ""category"": ""REFUND""}"
+I can't pay for purchase {{Order Number}},cancel_order,ORDER,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I can't pay for purchase {{Order Number}}<|im_end|>
+<|im_start|>assistant
+{""intent"": ""cancel_order"", ""category"": ""ORDER""}<|im_end|>
+","{""intent"": ""cancel_order"", ""category"": ""ORDER""}"
+assistance looking for my invoices from {{Person Name}},check_invoice,INVOICE,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+assistance looking for my invoices from {{Person Name}}<|im_end|>
+<|im_start|>assistant
+{""intent"": ""check_invoice"", ""category"": ""INVOICE""}<|im_end|>
+","{""intent"": ""check_invoice"", ""category"": ""INVOICE""}"
+how do I submit another delivery address?,set_up_shipping_address,SHIPPING,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+how do I submit another delivery address?<|im_end|>
+<|im_start|>assistant
+{""intent"": ""set_up_shipping_address"", ""category"": ""SHIPPING""}<|im_end|>
+","{""intent"": ""set_up_shipping_address"", ""category"": ""SHIPPING""}"
+question about cancelling order {{Order Number}},cancel_order,ORDER,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+question about cancelling order {{Order Number}}<|im_end|>
+<|im_start|>assistant
+{""intent"": ""cancel_order"", ""category"": ""ORDER""}<|im_end|>
+","{""intent"": ""cancel_order"", ""category"": ""ORDER""}"
+I don't know what I need to do to get the bill #12588,get_invoice,INVOICE,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I don't know what I need to do to get the bill #12588<|im_end|>
+<|im_start|>assistant
+{""intent"": ""get_invoice"", ""category"": ""INVOICE""}<|im_end|>
+","{""intent"": ""get_invoice"", ""category"": ""INVOICE""}"
+wanna use the {{Account Type}} account i need help,switch_account,ACCOUNT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+wanna use the {{Account Type}} account i need help<|im_end|>
+<|im_start|>assistant
+{""intent"": ""switch_account"", ""category"": ""ACCOUNT""}<|im_end|>
+","{""intent"": ""switch_account"", ""category"": ""ACCOUNT""}"
+need assistance to use the platinum profile,switch_account,ACCOUNT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+need assistance to use the platinum profile<|im_end|>
+<|im_start|>assistant
+{""intent"": ""switch_account"", ""category"": ""ACCOUNT""}<|im_end|>
+","{""intent"": ""switch_account"", ""category"": ""ACCOUNT""}"
+I have got to check if there are any news on the restitution,track_refund,REFUND,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I have got to check if there are any news on the restitution<|im_end|>
+<|im_start|>assistant
+{""intent"": ""track_refund"", ""category"": ""REFUND""}<|im_end|>
+","{""intent"": ""track_refund"", ""category"": ""REFUND""}"
+i want assistance downloading the bills from {{Person Name}},get_invoice,INVOICE,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+i want assistance downloading the bills from {{Person Name}}<|im_end|>
+<|im_start|>assistant
+{""intent"": ""get_invoice"", ""category"": ""INVOICE""}<|im_end|>
+","{""intent"": ""get_invoice"", ""category"": ""INVOICE""}"
+I can't talk with  a human agent,contact_human_agent,CONTACT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I can't talk with  a human agent<|im_end|>
+<|im_start|>assistant
+{""intent"": ""contact_human_agent"", ""category"": ""CONTACT""}<|im_end|>
+","{""intent"": ""contact_human_agent"", ""category"": ""CONTACT""}"
+issue submitting a secondary shipping address,set_up_shipping_address,SHIPPING,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+issue submitting a secondary shipping address<|im_end|>
+<|im_start|>assistant
+{""intent"": ""set_up_shipping_address"", ""category"": ""SHIPPING""}<|im_end|>
+","{""intent"": ""set_up_shipping_address"", ""category"": ""SHIPPING""}"
+i have got to cancel the subscription to ur newsletter,newsletter_subscription,SUBSCRIPTION,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+i have got to cancel the subscription to ur newsletter<|im_end|>
+<|im_start|>assistant
+{""intent"": ""newsletter_subscription"", ""category"": ""SUBSCRIPTION""}<|im_end|>
+","{""intent"": ""newsletter_subscription"", ""category"": ""SUBSCRIPTION""}"
+there is an error modifying my delivery address,change_shipping_address,SHIPPING,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+there is an error modifying my delivery address<|im_end|>
+<|im_start|>assistant
+{""intent"": ""change_shipping_address"", ""category"": ""SHIPPING""}<|im_end|>
+","{""intent"": ""change_shipping_address"", ""category"": ""SHIPPING""}"
+tracking order {{Order Number}},track_order,ORDER,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+tracking order {{Order Number}}<|im_end|>
+<|im_start|>assistant
+{""intent"": ""track_order"", ""category"": ""ORDER""}<|im_end|>
+","{""intent"": ""track_order"", ""category"": ""ORDER""}"
+need to check ur refund policy can i get some help,check_refund_policy,REFUND,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+need to check ur refund policy can i get some help<|im_end|>
+<|im_start|>assistant
+{""intent"": ""check_refund_policy"", ""category"": ""REFUND""}<|im_end|>
+","{""intent"": ""check_refund_policy"", ""category"": ""REFUND""}"
+how to file a consumer claim against your company?,complaint,FEEDBACK,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+how to file a consumer claim against your company?<|im_end|>
+<|im_start|>assistant
+{""intent"": ""complaint"", ""category"": ""FEEDBACK""}<|im_end|>
+","{""intent"": ""complaint"", ""category"": ""FEEDBACK""}"
+"I would like to downloasd bill #00108, can you help me?",get_invoice,INVOICE,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I would like to downloasd bill #00108, can you help me?<|im_end|>
+<|im_start|>assistant
+{""intent"": ""get_invoice"", ""category"": ""INVOICE""}<|im_end|>
+","{""intent"": ""get_invoice"", ""category"": ""INVOICE""}"
+I don't know what to do to switch to the {{Account Category}} account,switch_account,ACCOUNT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I don't know what to do to switch to the {{Account Category}} account<|im_end|>
+<|im_start|>assistant
+{""intent"": ""switch_account"", ""category"": ""ACCOUNT""}<|im_end|>
+","{""intent"": ""switch_account"", ""category"": ""ACCOUNT""}"
+assistance to request rebates,get_refund,REFUND,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+assistance to request rebates<|im_end|>
+<|im_start|>assistant
+{""intent"": ""get_refund"", ""category"": ""REFUND""}<|im_end|>
+","{""intent"": ""get_refund"", ""category"": ""REFUND""}"
+help to check the ETA of order {{Order Number}},track_order,ORDER,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+help to check the ETA of order {{Order Number}}<|im_end|>
+<|im_start|>assistant
+{""intent"": ""track_order"", ""category"": ""ORDER""}<|im_end|>
+","{""intent"": ""track_order"", ""category"": ""ORDER""}"
+want help to shop a few of ur article,place_order,ORDER,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+want help to shop a few of ur article<|im_end|>
+<|im_start|>assistant
+{""intent"": ""place_order"", ""category"": ""ORDER""}<|im_end|>
+","{""intent"": ""place_order"", ""category"": ""ORDER""}"
+I want assistance retrieving my user profile key,recover_password,ACCOUNT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I want assistance retrieving my user profile key<|im_end|>
+<|im_start|>assistant
+{""intent"": ""recover_password"", ""category"": ""ACCOUNT""}<|im_end|>
+","{""intent"": ""recover_password"", ""category"": ""ACCOUNT""}"
+is it possibe to inform of errors with payment?,payment_issue,PAYMENT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+is it possibe to inform of errors with payment?<|im_end|>
+<|im_start|>assistant
+{""intent"": ""payment_issue"", ""category"": ""PAYMENT""}<|im_end|>
+","{""intent"": ""payment_issue"", ""category"": ""PAYMENT""}"
+i cannot see the eta of order {{Order Number}},track_order,ORDER,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+i cannot see the eta of order {{Order Number}}<|im_end|>
+<|im_start|>assistant
+{""intent"": ""track_order"", ""category"": ""ORDER""}<|im_end|>
+","{""intent"": ""track_order"", ""category"": ""ORDER""}"
+I don't know how to demand a restitution of money,get_refund,REFUND,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I don't know how to demand a restitution of money<|im_end|>
+<|im_start|>assistant
+{""intent"": ""get_refund"", ""category"": ""REFUND""}<|im_end|>
+","{""intent"": ""get_refund"", ""category"": ""REFUND""}"
+I have to conract customer assistance,contact_customer_service,CONTACT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I have to conract customer assistance<|im_end|>
+<|im_start|>assistant
+{""intent"": ""contact_customer_service"", ""category"": ""CONTACT""}<|im_end|>
+","{""intent"": ""contact_customer_service"", ""category"": ""CONTACT""}"
+reset the access key of my account,recover_password,ACCOUNT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+reset the access key of my account<|im_end|>
+<|im_start|>assistant
+{""intent"": ""recover_password"", ""category"": ""ACCOUNT""}<|im_end|>
+","{""intent"": ""recover_password"", ""category"": ""ACCOUNT""}"
+how to check the current status of purchase {{Order Number}}?,track_order,ORDER,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+how to check the current status of purchase {{Order Number}}?<|im_end|>
+<|im_start|>assistant
+{""intent"": ""track_order"", ""category"": ""ORDER""}<|im_end|>
+","{""intent"": ""track_order"", ""category"": ""ORDER""}"
+change information on {{Account Category}} account,edit_account,ACCOUNT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+change information on {{Account Category}} account<|im_end|>
+<|im_start|>assistant
+{""intent"": ""edit_account"", ""category"": ""ACCOUNT""}<|im_end|>
+","{""intent"": ""edit_account"", ""category"": ""ACCOUNT""}"
+how can i see ur allowed payment methods,check_payment_methods,PAYMENT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+how can i see ur allowed payment methods<|im_end|>
+<|im_start|>assistant
+{""intent"": ""check_payment_methods"", ""category"": ""PAYMENT""}<|im_end|>
+","{""intent"": ""check_payment_methods"", ""category"": ""PAYMENT""}"
+i need assistance to open a {{Account Category}} account for my dad,create_account,ACCOUNT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+i need assistance to open a {{Account Category}} account for my dad<|im_end|>
+<|im_start|>assistant
+{""intent"": ""create_account"", ""category"": ""ACCOUNT""}<|im_end|>
+","{""intent"": ""create_account"", ""category"": ""ACCOUNT""}"
+i do not know how to download the bill #37777,get_invoice,INVOICE,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+i do not know how to download the bill #37777<|im_end|>
+<|im_start|>assistant
+{""intent"": ""get_invoice"", ""category"": ""INVOICE""}<|im_end|>
+","{""intent"": ""get_invoice"", ""category"": ""INVOICE""}"
+where to report issues with online payments,payment_issue,PAYMENT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+where to report issues with online payments<|im_end|>
+<|im_start|>assistant
+{""intent"": ""payment_issue"", ""category"": ""PAYMENT""}<|im_end|>
+","{""intent"": ""payment_issue"", ""category"": ""PAYMENT""}"
+contact live agent,contact_human_agent,CONTACT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+contact live agent<|im_end|>
+<|im_start|>assistant
+{""intent"": ""contact_human_agent"", ""category"": ""CONTACT""}<|im_end|>
+","{""intent"": ""contact_human_agent"", ""category"": ""CONTACT""}"
+"I am having an error signing up, can I get some help?",registration_problems,ACCOUNT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I am having an error signing up, can I get some help?<|im_end|>
+<|im_start|>assistant
+{""intent"": ""registration_problems"", ""category"": ""ACCOUNT""}<|im_end|>
+","{""intent"": ""registration_problems"", ""category"": ""ACCOUNT""}"
+i try to check what paymnt payment modalities ya accept,check_payment_methods,PAYMENT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+i try to check what paymnt payment modalities ya accept<|im_end|>
+<|im_start|>assistant
+{""intent"": ""check_payment_methods"", ""category"": ""PAYMENT""}<|im_end|>
+","{""intent"": ""check_payment_methods"", ""category"": ""PAYMENT""}"
+can you show me when my item is going to arrive?,delivery_period,DELIVERY,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+can you show me when my item is going to arrive?<|im_end|>
+<|im_start|>assistant
+{""intent"": ""delivery_period"", ""category"": ""DELIVERY""}<|im_end|>
+","{""intent"": ""delivery_period"", ""category"": ""DELIVERY""}"
+"I don't want the freemium account, I need help to close it",delete_account,ACCOUNT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I don't want the freemium account, I need help to close it<|im_end|>
+<|im_start|>assistant
+{""intent"": ""delete_account"", ""category"": ""ACCOUNT""}<|im_end|>
+","{""intent"": ""delete_account"", ""category"": ""ACCOUNT""}"
+i dont kno how to request a refund of my money,get_refund,REFUND,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+i dont kno how to request a refund of my money<|im_end|>
+<|im_start|>assistant
+{""intent"": ""get_refund"", ""category"": ""REFUND""}<|im_end|>
+","{""intent"": ""get_refund"", ""category"": ""REFUND""}"
+I awnt assistance to locate the bill #00108,check_invoice,INVOICE,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I awnt assistance to locate the bill #00108<|im_end|>
+<|im_start|>assistant
+{""intent"": ""check_invoice"", ""category"": ""INVOICE""}<|im_end|>
+","{""intent"": ""check_invoice"", ""category"": ""INVOICE""}"
+can you help me to check what shipment methods I have?,delivery_options,DELIVERY,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+can you help me to check what shipment methods I have?<|im_end|>
+<|im_start|>assistant
+{""intent"": ""delivery_options"", ""category"": ""DELIVERY""}<|im_end|>
+","{""intent"": ""delivery_options"", ""category"": ""DELIVERY""}"
+want help to track the reimbursement,track_refund,REFUND,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+want help to track the reimbursement<|im_end|>
+<|im_start|>assistant
+{""intent"": ""track_refund"", ""category"": ""REFUND""}<|im_end|>
+","{""intent"": ""track_refund"", ""category"": ""REFUND""}"
+I need help closing a platinum account,delete_account,ACCOUNT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I need help closing a platinum account<|im_end|>
+<|im_start|>assistant
+{""intent"": ""delete_account"", ""category"": ""ACCOUNT""}<|im_end|>
+","{""intent"": ""delete_account"", ""category"": ""ACCOUNT""}"
+could you help me reporting errors with online payment?,payment_issue,PAYMENT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+could you help me reporting errors with online payment?<|im_end|>
+<|im_start|>assistant
+{""intent"": ""payment_issue"", ""category"": ""PAYMENT""}<|im_end|>
+","{""intent"": ""payment_issue"", ""category"": ""PAYMENT""}"
+how to open a {{Account Type}} account for my fiance,create_account,ACCOUNT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+how to open a {{Account Type}} account for my fiance<|im_end|>
+<|im_start|>assistant
+{""intent"": ""create_account"", ""category"": ""ACCOUNT""}<|im_end|>
+","{""intent"": ""create_account"", ""category"": ""ACCOUNT""}"
+"I need to see the cancellation fee, can you help me?",check_cancellation_fee,CANCEL,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I need to see the cancellation fee, can you help me?<|im_end|>
+<|im_start|>assistant
+{""intent"": ""check_cancellation_fee"", ""category"": ""CANCEL""}<|im_end|>
+","{""intent"": ""check_cancellation_fee"", ""category"": ""CANCEL""}"
+I need to set up another deliverry address,set_up_shipping_address,SHIPPING,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I need to set up another deliverry address<|im_end|>
+<|im_start|>assistant
+{""intent"": ""set_up_shipping_address"", ""category"": ""SHIPPING""}<|im_end|>
+","{""intent"": ""set_up_shipping_address"", ""category"": ""SHIPPING""}"
+need assiwtance seeing the ETA of the order {{Order Number}},track_order,ORDER,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+need assiwtance seeing the ETA of the order {{Order Number}}<|im_end|>
+<|im_start|>assistant
+{""intent"": ""track_order"", ""category"": ""ORDER""}<|im_end|>
+","{""intent"": ""track_order"", ""category"": ""ORDER""}"
+what do I need to do to shop some of your product?,place_order,ORDER,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+what do I need to do to shop some of your product?<|im_end|>
+<|im_start|>assistant
+{""intent"": ""place_order"", ""category"": ""ORDER""}<|im_end|>
+","{""intent"": ""place_order"", ""category"": ""ORDER""}"
+"my card was declined, inform of an error with payments",payment_issue,PAYMENT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+my card was declined, inform of an error with payments<|im_end|>
+<|im_start|>assistant
+{""intent"": ""payment_issue"", ""category"": ""PAYMENT""}<|im_end|>
+","{""intent"": ""payment_issue"", ""category"": ""PAYMENT""}"
+"I lost bill #37777, mail it to me",get_invoice,INVOICE,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I lost bill #37777, mail it to me<|im_end|>
+<|im_start|>assistant
+{""intent"": ""get_invoice"", ""category"": ""INVOICE""}<|im_end|>
+","{""intent"": ""get_invoice"", ""category"": ""INVOICE""}"
+I do not know how to get in touch with customer assistance,contact_customer_service,CONTACT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I do not know how to get in touch with customer assistance<|im_end|>
+<|im_start|>assistant
+{""intent"": ""contact_customer_service"", ""category"": ""CONTACT""}<|im_end|>
+","{""intent"": ""contact_customer_service"", ""category"": ""CONTACT""}"
+there is a problem with my registration,registration_problems,ACCOUNT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+there is a problem with my registration<|im_end|>
+<|im_start|>assistant
+{""intent"": ""registration_problems"", ""category"": ""ACCOUNT""}<|im_end|>
+","{""intent"": ""registration_problems"", ""category"": ""ACCOUNT""}"
+could you help me to submit some feedback for your products?,review,FEEDBACK,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+could you help me to submit some feedback for your products?<|im_end|>
+<|im_start|>assistant
+{""intent"": ""review"", ""category"": ""FEEDBACK""}<|im_end|>
+","{""intent"": ""review"", ""category"": ""FEEDBACK""}"
+can you help md unsubscribing to your company newsletter?,newsletter_subscription,SUBSCRIPTION,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+can you help md unsubscribing to your company newsletter?<|im_end|>
+<|im_start|>assistant
+{""intent"": ""newsletter_subscription"", ""category"": ""SUBSCRIPTION""}<|im_end|>
+","{""intent"": ""newsletter_subscription"", ""category"": ""SUBSCRIPTION""}"
+I need to check how long rimbursements take,check_refund_policy,REFUND,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I need to check how long rimbursements take<|im_end|>
+<|im_start|>assistant
+{""intent"": ""check_refund_policy"", ""category"": ""REFUND""}<|im_end|>
+","{""intent"": ""check_refund_policy"", ""category"": ""REFUND""}"
+"I can no longer afford order {{Order Number}}, cancel it",cancel_order,ORDER,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I can no longer afford order {{Order Number}}, cancel it<|im_end|>
+<|im_start|>assistant
+{""intent"": ""cancel_order"", ""category"": ""ORDER""}<|im_end|>
+","{""intent"": ""cancel_order"", ""category"": ""ORDER""}"
+I do not know how to submit some feedback,review,FEEDBACK,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I do not know how to submit some feedback<|im_end|>
+<|im_start|>assistant
+{""intent"": ""review"", ""category"": ""FEEDBACK""}<|im_end|>
+","{""intent"": ""review"", ""category"": ""FEEDBACK""}"
+I need help to check purchase {{Order Number}} current status,track_order,ORDER,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I need help to check purchase {{Order Number}} current status<|im_end|>
+<|im_start|>assistant
+{""intent"": ""track_order"", ""category"": ""ORDER""}<|im_end|>
+","{""intent"": ""track_order"", ""category"": ""ORDER""}"
+"I have got to enter a new shipping address, help me",set_up_shipping_address,SHIPPING,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I have got to enter a new shipping address, help me<|im_end|>
+<|im_start|>assistant
+{""intent"": ""set_up_shipping_address"", ""category"": ""SHIPPING""}<|im_end|>
+","{""intent"": ""set_up_shipping_address"", ""category"": ""SHIPPING""}"
+is there an address to leave an opinion ?,review,FEEDBACK,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+is there an address to leave an opinion ?<|im_end|>
+<|im_start|>assistant
+{""intent"": ""review"", ""category"": ""FEEDBACK""}<|im_end|>
+","{""intent"": ""review"", ""category"": ""FEEDBACK""}"
+assistance to see the invoice from {{Person Name}},check_invoice,INVOICE,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+assistance to see the invoice from {{Person Name}}<|im_end|>
+<|im_start|>assistant
+{""intent"": ""check_invoice"", ""category"": ""INVOICE""}<|im_end|>
+","{""intent"": ""check_invoice"", ""category"": ""INVOICE""}"
+opening new {{Account Type}} account for daughter,create_account,ACCOUNT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+opening new {{Account Type}} account for daughter<|im_end|>
+<|im_start|>assistant
+{""intent"": ""create_account"", ""category"": ""ACCOUNT""}<|im_end|>
+","{""intent"": ""create_account"", ""category"": ""ACCOUNT""}"
+i do not know how i can report a registration problem,registration_problems,ACCOUNT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+i do not know how i can report a registration problem<|im_end|>
+<|im_start|>assistant
+{""intent"": ""registration_problems"", ""category"": ""ACCOUNT""}<|im_end|>
+","{""intent"": ""registration_problems"", ""category"": ""ACCOUNT""}"
+refund  {{Currency Symbol}}{{Refund Amount}},get_refund,REFUND,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+refund  {{Currency Symbol}}{{Refund Amount}}<|im_end|>
+<|im_start|>assistant
+{""intent"": ""get_refund"", ""category"": ""REFUND""}<|im_end|>
+","{""intent"": ""get_refund"", ""category"": ""REFUND""}"
+I do not know what I need to do to create a {{Account Type}} account,create_account,ACCOUNT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I do not know what I need to do to create a {{Account Type}} account<|im_end|>
+<|im_start|>assistant
+{""intent"": ""create_account"", ""category"": ""ACCOUNT""}<|im_end|>
+","{""intent"": ""create_account"", ""category"": ""ACCOUNT""}"
+get money back,get_refund,REFUND,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+get money back<|im_end|>
+<|im_start|>assistant
+{""intent"": ""get_refund"", ""category"": ""REFUND""}<|im_end|>
+","{""intent"": ""get_refund"", ""category"": ""REFUND""}"
+i want assistance seeing the early exit charges,check_cancellation_fee,CANCEL,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+i want assistance seeing the early exit charges<|im_end|>
+<|im_start|>assistant
+{""intent"": ""check_cancellation_fee"", ""category"": ""CANCEL""}<|im_end|>
+","{""intent"": ""check_cancellation_fee"", ""category"": ""CANCEL""}"
+I do not know what I have to do to delete a {{Account Category}} account,delete_account,ACCOUNT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I do not know what I have to do to delete a {{Account Category}} account<|im_end|>
+<|im_start|>assistant
+{""intent"": ""delete_account"", ""category"": ""ACCOUNT""}<|im_end|>
+","{""intent"": ""delete_account"", ""category"": ""ACCOUNT""}"
+i dont know what i need to do to report errors with sign-up,registration_problems,ACCOUNT,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+i dont know what i need to do to report errors with sign-up<|im_end|>
+<|im_start|>assistant
+{""intent"": ""registration_problems"", ""category"": ""ACCOUNT""}<|im_end|>
+","{""intent"": ""registration_problems"", ""category"": ""ACCOUNT""}"
+I'm waiting for an goddamn restitution of {{Refund Amount}} dollars,track_refund,REFUND,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I'm waiting for an goddamn restitution of {{Refund Amount}} dollars<|im_end|>
+<|im_start|>assistant
+{""intent"": ""track_refund"", ""category"": ""REFUND""}<|im_end|>
+","{""intent"": ""track_refund"", ""category"": ""REFUND""}"
+i expect an refund of {{Refund Amount}} dollars was it processed,track_refund,REFUND,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+i expect an refund of {{Refund Amount}} dollars was it processed<|im_end|>
+<|im_start|>assistant
+{""intent"": ""track_refund"", ""category"": ""REFUND""}<|im_end|>
+","{""intent"": ""track_refund"", ""category"": ""REFUND""}"
+"I have to acquire a bloody item, I need assistance",place_order,ORDER,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+I have to acquire a bloody item, I need assistance<|im_end|>
+<|im_start|>assistant
+{""intent"": ""place_order"", ""category"": ""ORDER""}<|im_end|>
+","{""intent"": ""place_order"", ""category"": ""ORDER""}"
+can uhelp me ti leave a damn review for a product,review,FEEDBACK,"<|im_start|>system
+You are a customer support intent router. Given a customer message, respond with a single JSON object containing exactly two fields: ""intent"" and ""category"". Output JSON only, with no explanation.<|im_end|>
+<|im_start|>user
+can uhelp me ti leave a damn review for a product<|im_end|>
+<|im_start|>assistant
+{""intent"": ""review"", ""category"": ""FEEDBACK""}<|im_end|>
+","{""intent"": ""review"", ""category"": ""FEEDBACK""}"
