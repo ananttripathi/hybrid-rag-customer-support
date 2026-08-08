@@ -3,7 +3,7 @@
 End-to-end capstone: baseline LLM → retrieval-assisted generation (Naive RAG) → LoRA-fine-tuned
 intent router driving retrieval (Hybrid RAG). Built on `Qwen/Qwen2.5-1.5B-Instruct`.
 
-**Live demo:** _link pending — deploying to Hugging Face Spaces_
+**Live demo:** _link pending — deploying to Streamlit Community Cloud_
 
 ## Notebooks (run free in Colab — click a badge)
 
@@ -26,10 +26,14 @@ runtime type → T4) for notebooks 3, 4, 5, 6, 7.
 - `Project_Proposal_and_Methodology.pdf` / `.docx`
 - `Comparative_Analysis_Report.pdf` / `.docx`
 
-## Live demo (`hf_space/`)
+## Live demo (`streamlit_app/`)
 
-Gradio app comparing Baseline / Naive RAG / Hybrid RAG side by side on any query. Self-contained
-(bundles SOP docs + the fine-tuned LoRA adapter). See `hf_space/README.md`.
+Streamlit app comparing Baseline / Naive RAG / Hybrid RAG side by side on any query.
+Self-contained (bundles SOP docs + the fine-tuned LoRA adapter). Deployed free via
+[Streamlit Community Cloud](https://share.streamlit.io) — main file: `streamlit_app/streamlit_app.py`.
+
+A Gradio version also exists in `hf_space/` but is dormant — Hugging Face Spaces now requires a
+PRO subscription to host Gradio/Docker apps on CPU, so Streamlit Community Cloud is used instead.
 
 ## Results summary
 
@@ -43,7 +47,7 @@ Full breakdown, methodology, and limitations in `Comparative_Analysis_Report.pdf
 
 ## Stack
 
-Python 3.11 · transformers · peft (LoRA) · sentence-transformers · ChromaDB · LangChain · Gradio
+Python 3.11 · transformers · peft (LoRA) · sentence-transformers · ChromaDB · LangChain · Streamlit
 
 Executed on Apple Silicon (MPS) rather than the reference Colab/T4 — hardware adaptations
 (precision choices, batch sizes) documented in the Project Proposal.
