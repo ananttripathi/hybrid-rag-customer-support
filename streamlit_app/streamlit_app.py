@@ -267,7 +267,109 @@ def generate_hybrid_rag(query, k=1):
 
 
 st.set_page_config(page_title="Hybrid RAG Customer Support", page_icon="🎧", layout="wide")
-st.title("Hybrid RAG & Fine-Tuning for Customer Support")
+
+st.markdown(
+    """
+    <style>
+    .block-container { padding-top: 2.5rem; padding-bottom: 3rem; max-width: 1200px; }
+
+    .sahayak-hero {
+        background: linear-gradient(135deg, #4F46E5 0%, #7C3AED 100%);
+        border-radius: 16px;
+        padding: 2rem 2.25rem;
+        margin-bottom: 1.5rem;
+        color: white;
+        box-shadow: 0 8px 24px rgba(79, 70, 229, 0.25);
+    }
+    .sahayak-hero h1 { color: white; font-size: 1.9rem; margin: 0 0 0.4rem 0; font-weight: 700; }
+    .sahayak-hero p { color: rgba(255,255,255,0.88); margin: 0; font-size: 0.95rem; }
+
+    .stTextInput input {
+        border-radius: 10px;
+        border: 1.5px solid #E2E1F0;
+        padding: 0.7rem 1rem;
+        font-size: 1rem;
+    }
+    .stTextInput input:focus { border-color: #4F46E5; box-shadow: 0 0 0 3px rgba(79,70,229,0.12); }
+
+    div[data-testid="stButton"] button {
+        border-radius: 8px;
+        font-weight: 500;
+    }
+    div[data-testid="stButton"] button[kind="primary"] {
+        background: #4F46E5;
+        border: none;
+        padding: 0.6rem 1.6rem;
+        font-size: 1rem;
+        box-shadow: 0 4px 12px rgba(79,70,229,0.3);
+    }
+    div[data-testid="stButton"] button[kind="primary"]:hover { background: #4338CA; }
+
+    .chip-btn button {
+        background: #F4F5F9 !important;
+        color: #4B4A63 !important;
+        border: 1px solid #E2E1F0 !important;
+        border-radius: 999px !important;
+        font-size: 0.8rem !important;
+        padding: 0.35rem 0.9rem !important;
+        white-space: nowrap;
+    }
+    .chip-btn button:hover { border-color: #4F46E5 !important; color: #4F46E5 !important; }
+
+    .result-card {
+        border-radius: 14px;
+        padding: 1.25rem 1.4rem;
+        background: #FFFFFF;
+        border: 1px solid #ECEBF5;
+        box-shadow: 0 2px 10px rgba(30, 27, 46, 0.05);
+        height: 100%;
+    }
+    .result-card.baseline { border-top: 4px solid #94A3B8; }
+    .result-card.naive { border-top: 4px solid #3B82F6; }
+    .result-card.hybrid { border-top: 4px solid #10B981; }
+
+    .badge {
+        display: inline-block;
+        font-size: 0.68rem;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        padding: 0.2rem 0.6rem;
+        border-radius: 999px;
+        margin-bottom: 0.6rem;
+    }
+    .badge.baseline { background: #F1F5F9; color: #64748B; }
+    .badge.naive { background: #EFF6FF; color: #2563EB; }
+    .badge.hybrid { background: #ECFDF5; color: #059669; }
+
+    .card-title { font-size: 1.05rem; font-weight: 700; margin-bottom: 0.15rem; color: #1E1B2E; }
+    .card-sub { font-size: 0.82rem; color: #8B899E; margin-bottom: 0.9rem; }
+    .card-meta {
+        font-size: 0.78rem;
+        color: #6B6980;
+        background: #F8F8FC;
+        border-radius: 8px;
+        padding: 0.5rem 0.7rem;
+        margin-bottom: 0.75rem;
+        line-height: 1.5;
+        word-break: break-word;
+    }
+    .card-answer { font-size: 0.92rem; line-height: 1.55; color: #2A2840; }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
+st.markdown(
+    """
+    <div class="sahayak-hero">
+        <h1>🎧 Hybrid RAG &amp; Fine-Tuning for Customer Support</h1>
+        <p>Same query, three architectures, side by side — Baseline vs Naive RAG vs a LoRA-fine-tuned Hybrid RAG router.</p>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
+
 st.caption(
     f"Demo model: `{MODEL_ID}` (small, free-tier friendly) · Router: LoRA-fine-tuned intent "
     f"extractor · Retrieval: manual cosine similarity ({len(sop_names)} SOP docs) + MiniLM."
@@ -287,38 +389,80 @@ EXAMPLES = [
     "how do i stop getting charged every month for this subscription",
 ]
 
-query = st.text_input("Customer query", placeholder="Type a support message...")
+def _set_query(text):
+    # Runs in Streamlit's pre-rerun callback phase, before the text_input widget below is
+    # re-instantiated — writing to its session_state key directly (not via a callback) would
+    # raise "cannot be modified after the widget is instantiated" instead.
+    st.session_state.query_box = text
+
+
+if "query_box" not in st.session_state:
+    st.session_state.query_box = ""
+
+query = st.text_input(
+    "Customer query", placeholder="Type a support message...", key="query_box", label_visibility="collapsed"
+)
+
+st.markdown('<div class="chip-btn">', unsafe_allow_html=True)
 cols = st.columns(len(EXAMPLES))
 for col, ex in zip(cols, EXAMPLES):
-    if col.button(ex[:28] + "...", help=ex):
-        query = ex
+    col.button(ex[:26] + "...", help=ex, key=f"ex_{ex[:10]}", on_click=_set_query, args=(ex,))
+st.markdown("</div>", unsafe_allow_html=True)
 
-run = st.button("Compare all 3 systems", type="primary")
+st.write("")
+run = st.button("Compare all 3 systems →", type="primary")
 
 if run and query.strip():
     col1, col2, col3 = st.columns(3)
 
     with col1:
-        st.subheader("1. Baseline")
-        st.caption("No context")
         with st.spinner("Generating..."):
-            st.write(generate_baseline(query))
+            baseline_out = generate_baseline(query)
+        st.markdown(
+            f"""
+            <div class="result-card baseline">
+                <span class="badge baseline">Zero-shot</span>
+                <div class="card-title">1. Baseline</div>
+                <div class="card-sub">No retrieval, no fine-tuning</div>
+                <div class="card-answer">{baseline_out}</div>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
 
     with col2:
-        st.subheader("2. Naive RAG")
-        st.caption("Raw-query retrieval")
         with st.spinner("Generating..."):
             rag_out, rag_doc = generate_naive_rag(query, k=1)
-        st.markdown(f"**Retrieved:** `{rag_doc}`")
-        st.write(rag_out)
+        st.markdown(
+            f"""
+            <div class="result-card naive">
+                <span class="badge naive">Retrieval</span>
+                <div class="card-title">2. Naive RAG</div>
+                <div class="card-sub">Raw query drives retrieval</div>
+                <div class="card-meta">📄 Retrieved: <code>{rag_doc}</code></div>
+                <div class="card-answer">{rag_out}</div>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
 
     with col3:
-        st.subheader("3. Hybrid RAG")
-        st.caption("Fine-tuned router")
         with st.spinner("Generating..."):
             hybrid_out, hybrid_doc, router_raw, intent, search_string = generate_hybrid_rag(query, k=1)
-        st.markdown(f"**Router:** `{router_raw}`")
-        st.markdown(f"**Search string:** `{search_string}` | **Retrieved:** `{hybrid_doc}`")
-        st.write(hybrid_out)
+        st.markdown(
+            f"""
+            <div class="result-card hybrid">
+                <span class="badge hybrid">Fine-tuned router</span>
+                <div class="card-title">3. Hybrid RAG</div>
+                <div class="card-sub">Structured intent drives retrieval</div>
+                <div class="card-meta">
+                    🤖 Router: <code>{router_raw}</code><br>
+                    🔎 Search: <code>{search_string}</code> → <code>{hybrid_doc}</code>
+                </div>
+                <div class="card-answer">{hybrid_out}</div>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
 elif run:
     st.warning("Enter a query above.")
