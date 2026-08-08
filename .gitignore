@@ -12,5 +12,7 @@ tokenized_valid/
 tokenized_test/
 Dataset_extracted/
 *.safetensors
+# ...except the small demo-only router the live Streamlit app actually needs at runtime:
+!streamlit_app/intent_lora_demo/*.safetensors
 
 .DS_Store
