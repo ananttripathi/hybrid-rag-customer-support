@@ -286,11 +286,13 @@ st.markdown(
 
     .stTextInput input {
         border-radius: 10px;
-        border: 1.5px solid #E2E1F0;
+        border: 1.5px solid var(--secondary-background-color);
         padding: 0.7rem 1rem;
         font-size: 1rem;
+        color: var(--text-color);
+        background: var(--background-color);
     }
-    .stTextInput input:focus { border-color: #4F46E5; box-shadow: 0 0 0 3px rgba(79,70,229,0.12); }
+    .stTextInput input:focus { border-color: #6366F1; box-shadow: 0 0 0 3px rgba(99,102,241,0.20); }
 
     div[data-testid="stButton"] button {
         border-radius: 8px;
@@ -298,30 +300,32 @@ st.markdown(
     }
     div[data-testid="stButton"] button[kind="primary"] {
         background: #4F46E5;
+        color: #FFFFFF;
         border: none;
         padding: 0.6rem 1.6rem;
         font-size: 1rem;
-        box-shadow: 0 4px 12px rgba(79,70,229,0.3);
+        box-shadow: 0 4px 12px rgba(79,70,229,0.35);
     }
     div[data-testid="stButton"] button[kind="primary"]:hover { background: #4338CA; }
 
     .chip-btn button {
-        background: #F4F5F9 !important;
-        color: #4B4A63 !important;
-        border: 1px solid #E2E1F0 !important;
+        background: var(--secondary-background-color) !important;
+        color: var(--text-color) !important;
+        opacity: 0.75;
+        border: 1px solid rgba(128,128,128,0.25) !important;
         border-radius: 999px !important;
         font-size: 0.8rem !important;
         padding: 0.35rem 0.9rem !important;
         white-space: nowrap;
     }
-    .chip-btn button:hover { border-color: #4F46E5 !important; color: #4F46E5 !important; }
+    .chip-btn button:hover { border-color: #6366F1 !important; color: #6366F1 !important; opacity: 1; }
 
     .result-card {
         border-radius: 14px;
         padding: 1.25rem 1.4rem;
-        background: #FFFFFF;
-        border: 1px solid #ECEBF5;
-        box-shadow: 0 2px 10px rgba(30, 27, 46, 0.05);
+        background: var(--secondary-background-color);
+        border: 1px solid rgba(128,128,128,0.18);
+        box-shadow: 0 2px 10px rgba(0,0,0,0.06);
         height: 100%;
     }
     .result-card.baseline { border-top: 4px solid #94A3B8; }
@@ -338,23 +342,24 @@ st.markdown(
         border-radius: 999px;
         margin-bottom: 0.6rem;
     }
-    .badge.baseline { background: #F1F5F9; color: #64748B; }
-    .badge.naive { background: #EFF6FF; color: #2563EB; }
-    .badge.hybrid { background: #ECFDF5; color: #059669; }
+    .badge.baseline { background: rgba(148,163,184,0.20); color: #94A3B8; }
+    .badge.naive { background: rgba(59,130,246,0.16); color: #60A5FA; }
+    .badge.hybrid { background: rgba(16,185,129,0.16); color: #34D399; }
 
-    .card-title { font-size: 1.05rem; font-weight: 700; margin-bottom: 0.15rem; color: #1E1B2E; }
-    .card-sub { font-size: 0.82rem; color: #8B899E; margin-bottom: 0.9rem; }
+    .card-title { font-size: 1.05rem; font-weight: 700; margin-bottom: 0.15rem; color: var(--text-color); }
+    .card-sub { font-size: 0.82rem; color: var(--text-color); opacity: 0.6; margin-bottom: 0.9rem; }
     .card-meta {
         font-size: 0.78rem;
-        color: #6B6980;
-        background: #F8F8FC;
+        color: var(--text-color);
+        opacity: 0.8;
+        background: rgba(128,128,128,0.10);
         border-radius: 8px;
         padding: 0.5rem 0.7rem;
         margin-bottom: 0.75rem;
         line-height: 1.5;
         word-break: break-word;
     }
-    .card-answer { font-size: 0.92rem; line-height: 1.55; color: #2A2840; }
+    .card-answer { font-size: 0.92rem; line-height: 1.55; color: var(--text-color); }
     </style>
     """,
     unsafe_allow_html=True,
