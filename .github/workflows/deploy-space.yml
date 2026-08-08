@@ -1,0 +1,42 @@
+name: Deploy Gradio demo to Hugging Face Spaces
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "hf_space/**"
+  workflow_dispatch: {}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install huggingface_hub
+        run: pip install -U huggingface_hub
+
+      - name: Create (if needed) and sync the Space
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          SPACE_NAME: hybrid-rag-customer-support
+        run: |
+          python3 - <<'PY'
+          import os
+          from huggingface_hub import HfApi
+
+          api = HfApi(token=os.environ["HF_TOKEN"])
+          username = api.whoami()["name"]
+          repo_id = f'{username}/{os.environ["SPACE_NAME"]}'
+
+          api.create_repo(repo_id=repo_id, repo_type="space", space_sdk="gradio", exist_ok=True)
+          api.upload_folder(folder_path="hf_space", repo_id=repo_id, repo_type="space")
+
+          print(f"Deployed: https://huggingface.co/spaces/{repo_id}")
+          PY
